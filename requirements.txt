@@ -1,0 +1,7 @@
+git+https://github.com/huggingface/transformers
+sentencepiece
+pyyaml==5.1
+pytesseract
+datasets
+seqeval
+pandas

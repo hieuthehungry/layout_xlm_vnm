@@ -285,8 +285,3 @@ labels = list(set(all_labels))
 val_result, class_report = results_test(preds_val, out_label_ids, labels)
 print("Overall results:", val_result)
 print(class_report)
-
-"""The results I was getting were: 
-
-`{'precision': 0.9307458143074582, 'recall': 0.9272175890826384, 'f1': 0.9289783516900872}`
-"""
